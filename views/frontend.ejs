@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MyBookDB</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/css.css">
+	</head>
+	<body>
+		<h1 class="header">Add to myLibrary</h1>
+		<div class="InsertBar">
+			<form>
+				<p>Author : </p> <input class="txtfield" type="text" id="author" autofocus>
+				<p>Title : </p><input class="txtfield" type="text" id="title">
+				<p>Genre : </p><select class="dropdown" id="genre">
+					<option value=""></option>
+    				<option value="Sci-fi">Science fiction</option>
+    				<option value="Satire">Satire</option>
+    				<option value="Drama">Drama</option>
+    				<option value="Action-Adventure">Action and Adventure</option>
+    				<option value="Romance">Romance</option>
+    				<option value="Mystery">Mystery</option>
+    				<option value="Horror">Horror</option>
+  				</select>
+  				<p>Price : </p><input class="txtfield" type="number" id="price">
+  				<button class="btn" type="button" id="addMyBookButton">Add myBook</button>
+			</form>
+		</div>
+		<h1 class="header">Search from myLibrary</h1>
+		<div class="header">
+			<p>Search by Title or Author : </p> <input class="txtfield" type="text" id="search">
+			<button class="btn" button onclick="searchBook()">Search</button>
+		</div>
+		<script src="js/js.js"></script>
+	</body>
+</html>
