@@ -15,10 +15,10 @@ var mysql = require('mysql');
 //Δημιουργία connection pool
 var pool  = mysql.createPool({
   connectionLimit : 10,
-  host            : '35.202.249.58',
-  user            : 'user1',
-  password        : 'toor',
-  database        : 'mydb'
+  host            : '****',
+  user            : '****',
+  password        : '****',
+  database        : '****'
 });
 
 
